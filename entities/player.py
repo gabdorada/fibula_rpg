@@ -7,10 +7,10 @@ class Player(Entity):
         super().__init__(name, hp, attack_power) 
 
     # Player-specific attributes.
-    self.level = 1
-    self.xp = 0 
-    self.xp_to_next_level = 50
-    self.potions = 2
+        self.level = 1
+        self.xp = 0 
+        self.xp_to_next_level = 50
+        self.potions = 2
 
     def use_potion(self) -> bool:
         # Consumes a potion to restore player HP.
